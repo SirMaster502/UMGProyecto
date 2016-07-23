@@ -1,6 +1,15 @@
 source 'https://rubygems.org'
 
+#Framework de Bootstrap anadido al proyecto
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+# Template Bootstrap
+gem 'bootstrap_sb_admin_base_v2', :git => 'https://github.com/dreamingechoes/bootstrap_sb_admin_base_v2.git'
+
+# Login para los usuarios en el proyecto
+gem 'devise'
+# Roles de usuario
+gem'cancan'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
